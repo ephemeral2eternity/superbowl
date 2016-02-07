@@ -37,7 +37,7 @@ def traceroute(host):
     if sys.platform == 'win32':
         cmd = ['tracert', host]
     else:
-        cmd = ['traceroute', '-I', '-m', '30', host]
+        cmd = ['traceroute', '-I', '-w', '1', host]
     p = Popen(cmd, stdout=PIPE)
     while True:
         line = p.stdout.readline()
@@ -103,5 +103,5 @@ def trVMs(vmList):
     return srvHops
 
 if __name__ == "__main__":
-    hops = traceroute('40.122.125.188')
+    hops = traceroute('www.cmu-agens.com')
     print hops

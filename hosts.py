@@ -1,29 +1,23 @@
 import os
+from ips.load_ips import *
 
-commercial_hosts = [
-    'netflix753.as.nflximg.com.edgesuite.net',
-    'www.cbssports.com',
-    '209715148.log.optimizely.com',
-    's.amazon-adsystem.com',
-    'ad.doubleclick.net'
-]
+commercial_hosts = {
+    'netflix':'netflix753.as.nflximg.com.edgesuite.net',
+    'cbssports':'www.cbssports.com',
+    'doubleclick': 'ad.doubleclick.net',
+    'doubleclick-stat': 'stats.l.doubleclick.net',
+    'google-tag-manager':'www.googletagmanager.com',
+    'papajohns':'www.papajohns.com',
+    'lube':'quakersteakandlube.alohaorderonline.com'
+}
 
-commercial_urls = [
-    'http://www.cbssports.com/nfl/superbowl/live/player',
-    'https://twitter.com/SuperBowl',
-    'https://twitter.com/search?q=%23superbowl'
-]
+commercial_urls = {
+    'cbssport':'http://www.cbssports.com/nfl/superbowl/live/player',
+    'pizzahut':'https://order.pizzahut.com/home',
+    'lube':'https://quakersteakandlube.alohaorderonline.com/',
+    'papajohns':'https://www.papajohns.com/',
+    'twSuperbowl':'https://twitter.com/SuperBowl',
+    'twHashSuperbowl':'https://twitter.com/search?q=%23superbowl'
+}
 
-## File paths
-current_folder = os.path.dirname(__file__)
-probe_path = current_folder + '/probe/'
-try:
-    os.stat(probe_path)
-except:
-    os.mkdir(probe_path)
-
-trace_path = current_folder + '/trace/'
-try:
-    os.stat(trace_path)
-except:
-    os.mkdir(trace_path)
+cache_ips, cache_urls = load_cache_ips()
