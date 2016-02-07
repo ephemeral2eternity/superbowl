@@ -25,15 +25,14 @@ dateStr = datetime.fromtimestamp(curTS).strftime('%m%d')
 
 rtt_data['Timestamp'] = curTS
 curl_data['Timestamp'] = curTS
-for host_name in hosts.cache_ips.keys():
-    mnRTT = getMnRTT(hosts.cache_ips[host_name], probe_num)
-    rtt_data[host_name] = mnRTT
-    cur_bw_data_list = iperf(hosts.cache_ips[host_name])
-    bw_data_list = bw_data_list + cur_bw_data_list
 
 for url_name in hosts.cache_urls.keys():
     rsp_time = curl(hosts.cache_urls[url_name])
     curl_data[url_name] = rsp_time
+
+for host_name in hosts.cache_ips.keys():
+    mnRTT = getMnRTT(hosts.cache_ips[host_name], probe_num)
+    rtt_data[host_name] = mnRTT
 
 rtt_file_name = config.probe_path + myName + '_' + dateStr + '_cacheping.csv'
 rtt_headers = ['Timestamp'] + hosts.cache_ips.keys()
@@ -43,6 +42,11 @@ appendCSV(rtt_file_name, rtt_headers, rtt_data)
 curl_file_name = config.probe_path + myName + '_' + dateStr +'_cachecurl.csv'
 curl_headers = ['Timestamp'] + hosts.cache_urls.keys()
 appendCSV(curl_file_name, curl_headers, curl_data)
+
+
+for host_name in hosts.cache_ips.keys():
+    cur_bw_data_list = iperf(hosts.cache_ips[host_name])
+    bw_data_list = bw_data_list + cur_bw_data_list
 
 iperf_file_name = config.probe_path + myName + '_' + dateStr +'_cachebw.csv'
 bw_headers = bw_data_list[0].keys()

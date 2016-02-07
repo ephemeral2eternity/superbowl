@@ -12,6 +12,9 @@ def iperf(ip):
     Curl a url and record the response time.
     '''
     bw_data_list = []
+
+    os.system("killall -9 iperf")
+
     cmd = ['iperf', '-c', ip, '-d', '-t1', '-y', 'C']
     process = Popen(cmd, stdout=PIPE, stderr=PIPE)
     for row in process.stdout:
