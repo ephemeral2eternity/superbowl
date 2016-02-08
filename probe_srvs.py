@@ -43,15 +43,18 @@ curl_file_name = config.probe_path + myName + '_' + dateStr +'_cachecurl.csv'
 curl_headers = ['Timestamp'] + hosts.cache_urls.keys()
 appendCSV(curl_file_name, curl_headers, curl_data)
 
+now = datetime.now()
+cur_min = now.minute
 
-for host_name in hosts.cache_ips.keys():
-    cur_bw_data_list = iperf(hosts.cache_ips[host_name])
-    bw_data_list = bw_data_list + cur_bw_data_list
+if cur_min % 5 == 0:
+    for host_name in hosts.cache_ips.keys():
+        cur_bw_data_list = iperf(hosts.cache_ips[host_name])
+        bw_data_list = bw_data_list + cur_bw_data_list
 
-iperf_file_name = config.probe_path + myName + '_' + dateStr +'_cachebw.csv'
-bw_headers = bw_data_list[0].keys()
-for bw_data in bw_data_list:
-    appendCSV(iperf_file_name, bw_headers, bw_data)
+    iperf_file_name = config.probe_path + myName + '_' + dateStr +'_cachebw.csv'
+    bw_headers = bw_data_list[0].keys()
+    for bw_data in bw_data_list:
+        appendCSV(iperf_file_name, bw_headers, bw_data)
 
 time_elapsed = time.time() - curTS
 print "Running Time at ", str(curTS), ' is ', str(time_elapsed)
