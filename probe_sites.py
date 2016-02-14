@@ -43,7 +43,3 @@ appendCSV(curl_file_name, curl_headers, curl_data)
 
 time_elapsed = time.time() - curTS
 print "Running Time at ", str(curTS), ' is ', str(time_elapsed)
-
-
-
-
