@@ -1,0 +1,399 @@
+{
+    "cbssports": {
+        "hostname": "a104-70-54-161.deploy.static.akamaitechnologies.com", 
+        "ip": "104.70.54.161", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE255-POD-A.GW.CMU.NET", 
+                "IP": "128.2.255.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-CYH-CORE255.GW.CMU.NET", 
+                "IP": "128.2.255.250", 
+                "Time": 1.0
+            }, 
+            "4": {
+                "Addr": "50-202-216-185-static.hfc.comcastbusiness.net", 
+                "IP": "50.202.216.185", 
+                "Time": 1.0
+            }, 
+            "5": {
+                "Addr": "te-8-3-ur01.wheeling.wv.pitt.comcast.net", 
+                "IP": "68.86.100.26", 
+                "Time": 1.0
+            }, 
+            "6": {
+                "Addr": "te-0-0-0-0-ar01.mckeesport.pa.pitt.comcast.net", 
+                "IP": "68.86.147.109", 
+                "Time": 1.0
+            }, 
+            "7": {
+                "Addr": "be-7016-cr02.ashburn.va.ibone.comcast.net", 
+                "IP": "68.86.91.25", 
+                "Time": 8.333333333333334
+            }, 
+            "8": {
+                "Addr": "hu-0-11-0-6-pe07.ashburn.va.ibone.comcast.net", 
+                "IP": "68.86.85.166", 
+                "Time": 9.333333333333334
+            }, 
+            "9": {
+                "Addr": "a104-70-54-161.deploy.static.akamaitechnologies.com", 
+                "IP": "104.70.54.161", 
+                "Time": 7.0
+            }
+        }
+    }, 
+    "doubleclick": {
+        "hostname": "iad30s08-in-f6.1e100.net", 
+        "ip": "172.217.7.134", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE0-POD-A.GW.CMU.NET", 
+                "IP": "128.2.0.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-DCNS-CORE0.GW.CMU.NET", 
+                "IP": "128.2.0.194", 
+                "Time": 71.33333333333333
+            }, 
+            "4": {
+                "Addr": "ae-0.520.rtr01.acma.net.pennren.net", 
+                "IP": "162.223.18.42", 
+                "Time": 1.0
+            }, 
+            "5": {
+                "Addr": "147.73.18.130", 
+                "IP": "147.73.18.130", 
+                "Time": 37.666666666666664
+            }, 
+            "6": {
+                "Addr": "72.14.213.79", 
+                "IP": "72.14.213.79", 
+                "Time": 11.0
+            }, 
+            "7": {
+                "Addr": "108.170.246.1", 
+                "IP": "108.170.246.1", 
+                "Time": 11.0
+            }, 
+            "8": {
+                "Addr": "216.239.54.205", 
+                "IP": "216.239.54.205", 
+                "Time": 11.0
+            }, 
+            "9": {
+                "Addr": "172.217.7.134", 
+                "IP": "172.217.7.134", 
+                "Time": 11.0
+            }
+        }
+    }, 
+    "doubleclick-stat": {
+        "hostname": "qh-in-f154.1e100.net", 
+        "ip": "74.125.22.154", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE255-POD-A.GW.CMU.NET", 
+                "IP": "128.2.255.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-DCNS-CORE255.GW.CMU.NET", 
+                "IP": "128.2.255.194", 
+                "Time": 1.0
+            }, 
+            "4": {
+                "Addr": "ae-0.520.rtr01.acma.net.pennren.net", 
+                "IP": "162.223.18.42", 
+                "Time": 1.0
+            }, 
+            "5": {
+                "Addr": "147.73.18.130", 
+                "IP": "147.73.18.130", 
+                "Time": 22.666666666666668
+            }, 
+            "6": {
+                "Addr": "72.14.213.79", 
+                "IP": "72.14.213.79", 
+                "Time": 10.333333333333334
+            }, 
+            "7": {
+                "Addr": "108.170.246.34", 
+                "IP": "108.170.246.34", 
+                "Time": 11.0
+            }, 
+            "8": {
+                "Addr": "216.239.50.93", 
+                "IP": "216.239.50.93", 
+                "Time": 11.0
+            }, 
+            "9": {
+                "Addr": "216.239.48.31", 
+                "IP": "216.239.48.31", 
+                "Time": 19.0
+            }, 
+            "10": {
+                "Addr": "209.85.250.247", 
+                "IP": "209.85.250.247", 
+                "Time": 19.0
+            }, 
+            "11": {
+                "Addr": "*", 
+                "IP": "*", 
+                "Time": "*"
+            }, 
+            "12": {
+                "Addr": "*", 
+                "IP": "74.125.22.154", 
+                "Time": 18.0
+            }
+        }
+    }, 
+    "google-tag-manager": {
+        "hostname": "iad23s42-in-f8.1e100.net", 
+        "ip": "216.58.217.104", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE0-POD-A.GW.CMU.NET", 
+                "IP": "128.2.0.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-DCNS-CORE0.GW.CMU.NET", 
+                "IP": "128.2.0.194", 
+                "Time": 1.0
+            }, 
+            "4": {
+                "Addr": "ae-0.520.rtr01.acma.net.pennren.net", 
+                "IP": "162.223.18.42", 
+                "Time": 1.0
+            }, 
+            "5": {
+                "Addr": "147.73.18.130", 
+                "IP": "147.73.18.130", 
+                "Time": 24.333333333333332
+            }, 
+            "6": {
+                "Addr": "72.14.213.79", 
+                "IP": "72.14.213.79", 
+                "Time": 10.0
+            }, 
+            "7": {
+                "Addr": "108.170.246.34", 
+                "IP": "108.170.246.34", 
+                "Time": 12.0
+            }, 
+            "8": {
+                "Addr": "209.85.143.255", 
+                "IP": "209.85.143.255", 
+                "Time": 11.0
+            }, 
+            "9": {
+                "Addr": "*", 
+                "IP": "216.58.217.104", 
+                "Time": 11.0
+            }
+        }
+    }, 
+    "lube": {
+        "hostname": "www.alohaorderonline.com", 
+        "ip": "206.123.121.75", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE255-POD-A.GW.CMU.NET", 
+                "IP": "128.2.255.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-DCNS-CORE255.GW.CMU.NET", 
+                "IP": "128.2.255.194", 
+                "Time": 45.333333333333336
+            }, 
+            "4": {
+                "Addr": "68.65.124.68", 
+                "IP": "68.65.124.68", 
+                "Time": 10.0
+            }, 
+            "5": {
+                "Addr": "204.238.76.49", 
+                "IP": "204.238.76.49", 
+                "Time": 10.0
+            }, 
+            "6": {
+                "Addr": "204.238.76.235", 
+                "IP": "204.238.76.235", 
+                "Time": 12.0
+            }, 
+            "7": {
+                "Addr": "*", 
+                "IP": "*", 
+                "Time": "*"
+            }, 
+            "8": {
+                "Addr": "ae5.cr2.lga5.us.zip.zayo.com", 
+                "IP": "64.125.21.82", 
+                "Time": 14.333333333333334
+            }, 
+            "9": {
+                "Addr": "ae27.cs2.lga5.us.eth.zayo.com", 
+                "IP": "64.125.30.252", 
+                "Time": 52.666666666666664
+            }, 
+            "10": {
+                "Addr": "ae4.cs2.dca2.us.eth.zayo.com", 
+                "IP": "64.125.29.31", 
+                "Time": 41.0
+            }, 
+            "11": {
+                "Addr": "ae3.cs2.iah1.us.eth.zayo.com", 
+                "IP": "64.125.29.45", 
+                "Time": 41.0
+            }, 
+            "12": {
+                "Addr": "ae5.cs2.dfw2.us.eth.zayo.com", 
+                "IP": "64.125.28.103", 
+                "Time": 55.666666666666664
+            }, 
+            "13": {
+                "Addr": "ae27.cr2.dfw2.us.zip.zayo.com", 
+                "IP": "64.125.30.183", 
+                "Time": 41.0
+            }, 
+            "14": {
+                "Addr": "ae7.er2.dfw2.us.zip.zayo.com", 
+                "IP": "64.125.20.234", 
+                "Time": 41.0
+            }, 
+            "15": {
+                "Addr": "64.124.196.226.t00876-01.above.net", 
+                "IP": "64.124.196.226", 
+                "Time": 43.0
+            }, 
+            "16": {
+                "Addr": "Jcore1.0.dal.colo4.com", 
+                "IP": "206.123.64.22", 
+                "Time": 46.0
+            }, 
+            "17": {
+                "Addr": "206.123.92.21", 
+                "IP": "206.123.92.21", 
+                "Time": 43.333333333333336
+            }, 
+            "18": {
+                "Addr": "*", 
+                "IP": "206.123.121.75", 
+                "Time": 43.666666666666664
+            }
+        }
+    }, 
+    "netflix": {
+        "hostname": "No Hostname", 
+        "ip": "38.87.49.170", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE0-POD-A.GW.CMU.NET", 
+                "IP": "128.2.0.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-CYH-CORE0.GW.CMU.NET", 
+                "IP": "128.2.0.250", 
+                "Time": 61.333333333333336
+            }, 
+            "4": {
+                "Addr": "68.65.124.84", 
+                "IP": "68.65.124.84", 
+                "Time": 10.0
+            }, 
+            "5": {
+                "Addr": "38.87.49.170", 
+                "IP": "38.87.49.170", 
+                "Time": 10.0
+            }
+        }
+    }, 
+    "papajohns": {
+        "hostname": "a104-70-67-234.deploy.static.akamaitechnologies.com", 
+        "ip": "104.70.67.234", 
+        "routes": {
+            "1": {
+                "Addr": "POD-A-VL57.GW.CMU.NET", 
+                "IP": "128.2.56.1", 
+                "Time": 1.0
+            }, 
+            "2": {
+                "Addr": "CORE0-POD-A.GW.CMU.NET", 
+                "IP": "128.2.0.153", 
+                "Time": 1.0
+            }, 
+            "3": {
+                "Addr": "POD-I-CYH-CORE0.GW.CMU.NET", 
+                "IP": "128.2.0.250", 
+                "Time": 8.666666666666666
+            }, 
+            "4": {
+                "Addr": "50-202-216-185-static.hfc.comcastbusiness.net", 
+                "IP": "50.202.216.185", 
+                "Time": 1.3333333333333333
+            }, 
+            "5": {
+                "Addr": "te-8-3-ur01.wheeling.wv.pitt.comcast.net", 
+                "IP": "68.86.100.26", 
+                "Time": 1.0
+            }, 
+            "6": {
+                "Addr": "te-0-0-0-0-ar01.mckeesport.pa.pitt.comcast.net", 
+                "IP": "68.86.147.109", 
+                "Time": 1.0
+            }, 
+            "7": {
+                "Addr": "be-7016-cr02.ashburn.va.ibone.comcast.net", 
+                "IP": "68.86.91.25", 
+                "Time": 8.0
+            }, 
+            "8": {
+                "Addr": "hu-0-11-0-3-pe07.ashburn.va.ibone.comcast.net", 
+                "IP": "68.86.88.106", 
+                "Time": 7.0
+            }, 
+            "9": {
+                "Addr": "a104-70-67-234.deploy.static.akamaitechnologies.com", 
+                "IP": "104.70.67.234", 
+                "Time": 7.0
+            }
+        }
+    }
+}

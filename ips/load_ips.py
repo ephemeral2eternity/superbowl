@@ -7,7 +7,7 @@ def load_cache_ips():
     cache_ips = {}
     cache_urls = {}
     cur_folder = os.path.dirname(__file__)
-    cache_ip_file = cur_folder + "/cache_ips.csv"
+    cache_ip_file = cur_folder + "/sb17-servers.csv"
 
     with open(cache_ip_file, 'r') as cache_file:
         reader = csv.reader(cache_file)
@@ -20,7 +20,7 @@ def load_cache_ips():
 def load_client_ips():
     client_ips = {}
     cur_folder = os.path.dirname(__file__)
-    client_ip_file = cur_folder + "/client_ips.csv"
+    client_ip_file = cur_folder + "/sb17-clients.csv"
 
     with open(client_ip_file, 'r') as cfile:
         reader = csv.reader(cfile)
