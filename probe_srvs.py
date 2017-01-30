@@ -20,7 +20,9 @@ bw_data_list = []
 
 myName = getMyName()
 
-curTS = time.time()
+startTS = time.time()
+curTS = startTS
+preTS = startTS
 dateStr = datetime.fromtimestamp(curTS).strftime('%m%d')
 
 rtt_data['Timestamp'] = curTS
@@ -29,10 +31,18 @@ curl_data['Timestamp'] = curTS
 for url_name in hosts.cache_urls.keys():
     rsp_time = curl(hosts.cache_urls[url_name])
     curl_data[url_name] = rsp_time
+    curTS = time.time()
+    time_elapsed = curTS - preTS
+    preTS = curTS
+    print "Running Time for curl ", url_name, ' is ', str(time_elapsed)
 
 for host_name in hosts.cache_ips.keys():
     mnRTT = getMnRTT(hosts.cache_ips[host_name], probe_num)
     rtt_data[host_name] = mnRTT
+    curTS = time.time()
+    time_elapsed = curTS - preTS
+    preTS = curTS
+    print "Running Time for ping ", host_name, ' is ', str(time_elapsed)
 
 rtt_file_name = config.probe_path + myName + '_' + dateStr + '_cacheping.csv'
 rtt_headers = ['Timestamp'] + hosts.cache_ips.keys()
@@ -50,14 +60,18 @@ if cur_min % 5 == 0:
     for host_name in hosts.cache_ips.keys():
         cur_bw_data_list = iperf(hosts.cache_ips[host_name])
         bw_data_list = bw_data_list + cur_bw_data_list
+        curTS = time.time()
+        time_elapsed = curTS - preTS
+        preTS = curTS
+        print "Running Time for iperf ", host_name, ' is ', str(time_elapsed)
 
     iperf_file_name = config.probe_path + myName + '_' + dateStr +'_cachebw.csv'
     bw_headers = bw_data_list[0].keys()
     for bw_data in bw_data_list:
         appendCSV(iperf_file_name, bw_headers, bw_data)
 
-time_elapsed = time.time() - curTS
-print "Running Time at ", str(curTS), ' is ', str(time_elapsed)
+time_elapsed = time.time() - startTS
+print "Total running time is ", str(time_elapsed)
 
 
 
