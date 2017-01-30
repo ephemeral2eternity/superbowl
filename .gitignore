@@ -63,3 +63,9 @@ target/
 
 # Ignore PyCharm xml file
 .idea/
+trace/
+probe/
+
+# Ignore all result files
+*.json
+*.csv

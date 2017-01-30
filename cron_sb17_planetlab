@@ -1,0 +1,4 @@
+*/5 * * * * sudo ~/superbowl/probe_sites.py
+*/5 * * * * sudo ~/superbowl/probe_srvs.py
+*/5 * * * * sudo ~/superbowl/trace_sites.py
+*/5 * * * * sudo ~/superbowl/trace_srvs.py

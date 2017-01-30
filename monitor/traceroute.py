@@ -103,5 +103,5 @@ def trVMs(vmList):
     return srvHops
 
 if __name__ == "__main__":
-    hops = traceroute('www.cmu-agens.com')
+    hops = traceroute('az.cmu-agens.com')
     print hops
