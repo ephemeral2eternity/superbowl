@@ -24,8 +24,6 @@ commercial_urls = {
     'lube':'https://quakersteakandlube.alohaorderonline.com/',
     'papajohns':'https://www.papajohns.com/',
     'twitter':'https://twitter.com/',
-    'twimg':'https://twimg.com/',
-    'pbstwimg':'http://pbs.twimg.com/',
     'twsports':'https://twitter.com/i/streams/category/686639666771046402',
     'twHashSB':'https://twitter.com/hashtag/superbowl',
     'twHashPepsi':'https://twitter.com/hashtag/pepsihalftime',
