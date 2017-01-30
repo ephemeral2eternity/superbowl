@@ -35,7 +35,7 @@ def ping(ip, count):
         cmd = ['ping', '-c', str(count), ip]
     process = Popen(cmd, stdout=PIPE, stderr=PIPE)
     stdout, stderr = process.communicate()
-    # print stdout
+    print stdout
     rttList = parsePingRst(stdout)
     return rttList
 
@@ -69,5 +69,5 @@ def pingVMs(vmList):
     return srvRTTs
 
 if __name__ == "__main__":
-    mnRTT = getMnRTT('www.cmu-agens.com')
+    mnRTT = getMnRTT('pbs.twimg.com')
     print mnRTT
