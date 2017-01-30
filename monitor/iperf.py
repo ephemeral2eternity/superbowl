@@ -38,7 +38,7 @@ def iperf(ip):
 
 
 if __name__ == "__main__":
-    host = "104.196.21.142"
+    host = "40.69.135.145"
     bw_data_list = iperf(host)
     for bw_data in bw_data_list:
         print bw_data
