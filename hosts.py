@@ -24,7 +24,8 @@ commercial_hosts = {
 }
 
 commercial_urls = {
-    'foxSportsGo':'https://www.foxsportsgo.com/',
+    'foxSports':'http://www.foxsports.com/nfl/super-bowl',
+    'foxSportsGo':'https://www.foxsportsgo.com/program/156815/super-bowl-li-patriots-vs-falcons',
     'pizzahut':'https://www.pizzahut.com/#/home',
     'lube':'https://quakersteakandlube.alohaorderonline.com/',
     'papajohns':'https://www.papajohns.com/',
