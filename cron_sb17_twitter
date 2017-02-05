@@ -1,0 +1,2 @@
+*/5 * * * * python ~/superbowl/crawl_twitter.py top
+*/15 * * * * python ~/superbowl/crawl_twitter.py all
