@@ -50,6 +50,8 @@ commercial_urls = {
     'twBlountPic':'https://pbs.twimg.com/profile_images/823672964482826241/Ajz57Znk_400x400.jpg',
     'facebook':'https://www.facebook.com/',
     'facebookCDN':'https://fbcdn.net/',
+    'fbLadyGaga':'https://www.facebook.com/ladygaga/',
+    'fbLadyGagaPic':'https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p320x320/14731203_10154799369604574_7279856940951385412_n.jpg?oh=0bcb5d104ffade857e84afdc16f0eea5&oe=59009677',
     'fbPepsi':'https://www.facebook.com/PepsiUS/',
     'fbPepsiPic':'https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-1/p320x320/1098335_10152375519544050_1128198535_n.jpg?oh=678b70701661fc61e78ef4ccf4405e9b&oe=5904EDB9',
     'fbNFL':'https://www.facebook.com/NFL/',
