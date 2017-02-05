@@ -3,7 +3,9 @@ from ips.load_ips import *
 
 commercial_hosts = {
     'netflix':'netflix753.as.nflximg.com.edgesuite.net',
-    'foxsports':'hlslinear-l3c.med1.foxsportsgo.com',
+    'foxsports-l3c':'hlslinear-l3c.med1.foxsportsgo.com',
+    'foxsports-akc':'hlslinear-akc.med1.foxsportsgo.com',
+    'foxsports-akc-us': 'hlsremote-akc1.us1.foxsportsgo.com',
     'conviva':'gwb.lphbs.com',
     'doubleclick': 'ad.doubleclick.net',
     'doubleclick-stat': 'stats.l.doubleclick.net',
