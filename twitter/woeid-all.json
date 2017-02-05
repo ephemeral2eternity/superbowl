@@ -1,8 +1,7 @@
 [
   {
     "name": "New England",
-    "placeType":
-    {
+    "placeType": {
       "name": "Region",
       "code": 13
     },
@@ -14,8 +13,7 @@
   },
   {
     "name": "Miami",
-    "placeType":
-    {
+    "placeType": {
       "name": "Town",
       "code": 7
     },
@@ -27,8 +25,7 @@
   },
   {
     "name": "New Orleans",
-    "placeType":
-    {
+    "placeType": {
       "name": "Town",
       "code": 7
     },
@@ -40,8 +37,7 @@
   },
   {
     "name": "Salt Lake City",
-    "placeType":
-    {
+    "placeType": {
       "name": "Town",
       "code": 7
     },
@@ -53,8 +49,7 @@
   },
   {
     "name": "Canada",
-    "placeType":
-    {
+    "placeType": {
       "name": "Country",
       "code": 12
     },
@@ -65,35 +60,8 @@
     "parentid": 1
   },
   {
-    "name": "Columbus",
-    "woeid": 2383660,
-    "placeType":
-    {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2383660",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Worldwide",
-    "placeType":
-    {
-      "name": "Supername",
-      "code": 19
-    },
-    "woeid": 1,
-    "country": "",
-    "url": "http://where.yahooapis.com/v1/place/1",
-    "countryCode": null,
-    "parentid": 0
-  },
-  {
     "name": "Providence",
-    "placeType":
-    {
+    "placeType": {
       "name": "Town",
       "code": 7
     },
@@ -104,71 +72,8 @@
     "parentid": 23424977
   },
   {
-    "name": "United States",
-    "placeType":
-    {
-      "name": "Country",
-      "code": 12
-    },
-    "woeid": 23424977,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/23424977",
-    "countryCode": "US",
-    "parentid": 1
-  },
-  {
-    "name": "Chicago",
-    "woeid": 2379574,
-    "placeType":
-    {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2379574",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Houston",
-    "woeid": 2424766,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2424766",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Washington",
-    "woeid": 2514815,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2514815",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Portland",
-    "woeid": 2475687,
-    "placeType": {
-    "name": "Town",
-    "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2475687",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
     "name": "Sacramento",
-    "placeType":
-    {
+    "placeType": {
       "name": "Town",
       "code": 7
     },
@@ -191,16 +96,16 @@
     "parentid": 23424977
   },
   {
-  "name": "Memphis",
-  "woeid": 2449323,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2449323",
-  "countryCode": "US",
-  "parentid": 23424977
+    "name": "Memphis",
+    "woeid": 2449323,
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2449323",
+    "countryCode": "US",
+    "parentid": 23424977
   },
   {
     "name": "Tampa",
@@ -215,22 +120,9 @@
     "parentid": 23424977
   },
   {
-    "name": "Austin",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2357536,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2357536",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
     "name": "St. Louis",
     "woeid": 2486982,
-    "placeType":
-    {
+    "placeType": {
       "name": "Town",
       "code": 7
     },
@@ -252,42 +144,6 @@
     "parentid": 23424977
   },
   {
-    "name": "Dallas-Ft. Worth",
-    "woeid": 2388929,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2388929",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "San Diego",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2487889,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2487889",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "San Francisco",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2487956,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2487956",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
     "name": "Minneapolis",
     "placeType": {
       "name": "Town",
@@ -296,18 +152,6 @@
     "woeid": 2452078,
     "country": "United States",
     "url": "http://where.yahooapis.com/v1/place/2452078",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Nashville",
-    "woeid": 2457170,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2457170",
     "countryCode": "US",
     "parentid": 23424977
   },
@@ -324,208 +168,124 @@
     "parentid": 23424977
   },
   {
-    "name": "New York",
-    "woeid": 2459115,
+    "name": "Cincinnati",
+    "woeid": 2380358,
     "placeType": {
       "name": "Town",
       "code": 7
     },
     "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2459115",
+    "url": "http://where.yahooapis.com/v1/place/2380358",
     "countryCode": "US",
     "parentid": 23424977
   },
   {
-    "name": "Las Vegas",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2436704,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2436704",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Denver",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2391279,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2391279",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-  "name": "Cincinnati",
-  "woeid": 2380358,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2380358",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Harrisburg",
-  "woeid": 2418046,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2418046",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Baton Rouge",
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "woeid": 2359991,
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2359991",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Baltimore",
-  "woeid": 2358820,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2358820",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Richmond",
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "woeid": 2480894,
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2480894",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-    "name": "San Antonio",
-    "placeType": {
-    "name": "Town",
-    "code": 7
-    },
-    "woeid": 2487796,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2487796",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-  "name": "Pittsburgh",
-  "woeid": 2473224,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2473224",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Orlando",
-  "woeid": 2466256,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2466256",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Detroit",
-  "woeid": 2391585,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2391585",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-    "name": "Philadelphia",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2471217,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2471217",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-  "name": "Tallahassee",
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "woeid": 2503713,
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2503713",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-  "name": "Greensboro",
-  "woeid": 2414469,
-  "placeType": {
-    "name": "Town",
-    "code": 7
-  },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2414469",
-  "countryCode": "US",
-  "parentid": 23424977
-  },
-  {
-    "name": "Indianapolis",
-    "woeid": 2427032,
+    "name": "Harrisburg",
+    "woeid": 2418046,
     "placeType": {
       "name": "Town",
       "code": 7
     },
     "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2427032",
+    "url": "http://where.yahooapis.com/v1/place/2418046",
     "countryCode": "US",
     "parentid": 23424977
   },
   {
-  "name": "Milwaukee",
-  "woeid": 2451822,
-  "placeType": {
-    "name": "Town",
-    "code": 7
+    "name": "Baton Rouge",
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "woeid": 2359991,
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2359991",
+    "countryCode": "US",
+    "parentid": 23424977
   },
-  "country": "United States",
-  "url": "http://where.yahooapis.com/v1/place/2451822",
-  "countryCode": "US",
-  "parentid": 23424977
+  {
+    "name": "Baltimore",
+    "woeid": 2358820,
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2358820",
+    "countryCode": "US",
+    "parentid": 23424977
+  },
+  {
+    "name": "Richmond",
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "woeid": 2480894,
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2480894",
+    "countryCode": "US",
+    "parentid": 23424977
+  },
+  {
+    "name": "Pittsburgh",
+    "woeid": 2473224,
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2473224",
+    "countryCode": "US",
+    "parentid": 23424977
+  },
+  {
+    "name": "Orlando",
+    "woeid": 2466256,
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2466256",
+    "countryCode": "US",
+    "parentid": 23424977
+  },
+  {
+    "name": "Tallahassee",
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "woeid": 2503713,
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2503713",
+    "countryCode": "US",
+    "parentid": 23424977
+  },
+  {
+    "name": "Greensboro",
+    "woeid": 2414469,
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2414469",
+    "countryCode": "US",
+    "parentid": 23424977
+  },
+  {
+    "name": "Milwaukee",
+    "woeid": 2451822,
+    "placeType": {
+      "name": "Town",
+      "code": 7
+    },
+    "country": "United States",
+    "url": "http://where.yahooapis.com/v1/place/2451822",
+    "countryCode": "US",
+    "parentid": 23424977
   },
   {
     "name": "Vancouver",
@@ -540,30 +300,6 @@
     "parentid": 23424775
   },
   {
-    "name": "Charlotte",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2378426,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2378426",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Seattle",
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "woeid": 2490383,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2490383",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
     "name": "Cleveland",
     "woeid": 2381475,
     "placeType": {
@@ -572,18 +308,6 @@
     },
     "country": "United States",
     "url": "http://where.yahooapis.com/v1/place/2381475",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
-    "name": "Phoenix",
-    "woeid": 2471390,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2471390",
     "countryCode": "US",
     "parentid": 23424977
   },
@@ -600,18 +324,6 @@
     "parentid": 23424977
   },
   {
-    "name": "Boston",
-    "woeid": 2367105,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2367105",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
     "name": "Ireland",
     "placeType": {
       "name": "Country",
@@ -622,18 +334,6 @@
     "url": "http://where.yahooapis.com/v1/place/23424803",
     "countryCode": "IE",
     "parentid": 1
-  },
-  {
-    "name": "Los Angeles",
-    "woeid": 2442047,
-    "placeType": {
-      "name": "Town",
-      "code": 7
-    },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2442047",
-    "countryCode": "US",
-    "parentid": 23424977
   },
   {
     "name": "Toronto",
@@ -647,16 +347,16 @@
     "countryCode": "CA",
     "parentid": 23424775
   },
-  {
-    "name": "Atlanta",
-    "woeid": 2357024,
+    {
+    "name": "Montreal",
+    "woeid": 3534,
     "placeType": {
       "name": "Town",
       "code": 7
     },
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/2357024",
-    "countryCode": "US",
-    "parentid": 23424977
+    "country": "Canada",
+    "url": "http://where.yahooapis.com/v1/place/3534",
+    "countryCode": "CA",
+    "parentid": 23424775
   }
 ]
