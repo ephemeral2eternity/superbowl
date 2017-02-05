@@ -163,3 +163,4 @@ ENV/
 
 twitterData/*
 probe/*
+hostinfo/*
