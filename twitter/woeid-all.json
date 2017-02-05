@@ -1,15 +1,15 @@
 [
   {
-    "name": "New England",
+    "name": "Buenos Aires",
     "placeType": {
-      "name": "Region",
-      "code": 13
+      "name": "Town",
+      "code": 7
     },
-    "woeid": 23509507,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/23509507",
-    "countryCode": "US",
-    "parentid": 23424977
+    "woeid": 468739,
+    "country": "Argentina",
+    "url": "http://where.yahooapis.com/v1/place/468739",
+    "countryCode": "AR",
+    "parentid": 23424747
   },
   {
     "name": "Miami",
