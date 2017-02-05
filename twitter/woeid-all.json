@@ -1,17 +1,5 @@
 [
   {
-    "name": "New England",
-    "placeType": {
-      "name": "Region",
-      "code": 13
-    },
-    "woeid": 23509507,
-    "country": "United States",
-    "url": "http://where.yahooapis.com/v1/place/23509507",
-    "countryCode": "US",
-    "parentid": 23424977
-  },
-  {
     "name": "Miami",
     "placeType": {
       "name": "Town",
