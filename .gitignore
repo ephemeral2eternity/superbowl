@@ -63,8 +63,8 @@ target/
 
 # Ignore PyCharm xml file
 .idea/
-trace/*
-probe/*
+trace/
+probe/
 
 # Ignore all result files
 *.csv
@@ -161,6 +161,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
-twitterData/*
-probe/*
-hostinfo/*
+twitterData/
+probe/
+hostinfo/
+*/*.json
