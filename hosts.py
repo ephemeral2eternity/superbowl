@@ -4,8 +4,11 @@ from ips.load_ips import *
 commercial_hosts = {
     'netflix':'netflix753.as.nflximg.com.edgesuite.net',
     'foxsports-l3c':'hlslinear-l3c.med1.foxsportsgo.com',
+    'foxsports-l3c2':'hlslinear-l3c.med2.foxsportsgo.com',
     'foxsports-akc':'hlslinear-akc.med1.foxsportsgo.com',
+    'foxsports-akc2':'hlslinear-akc.med2.foxsportsgo.com',
     'foxsports-akc-us': 'hlsremote-akc1.us1.foxsportsgo.com',
+    'foxsports-akc-us2': 'hlsremote-akc1.us2.foxsportsgo.com',
     'sb17-pre-l3c2':'hlsevent-l3c.med2.foxsportsgo.com',
     'sb17-pre-l3c':'hlsevent-l3c.med1.foxsportsgo.com',
     'sb17-pre-akc':'hlsevent-akc.med1.foxsportsgo.com',
