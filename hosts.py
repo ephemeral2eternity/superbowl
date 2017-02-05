@@ -30,6 +30,8 @@ commercial_urls = {
     'twHashSB':'https://twitter.com/hashtag/superbowl',
     'twHashPepsi':'https://twitter.com/hashtag/pepsihalftime',
     'twHashSB51':'https://twitter.com/hashtag/sb51',
+    'twLadyGaga':'https://twitter.com/ladygaga',
+    'twLadyGagaPic':'https://pbs.twimg.com/profile_images/809293761159122944/-BwdW70h_400x400.jpg',
     'twNFL':'https://twitter.com/NFL',
     'twNFLpic':'https://pbs.twimg.com/profile_images/804347579475509248/THjHIDnN_400x400.jpg',
     'twPepsi':'https://twitter.com/pepsi',
